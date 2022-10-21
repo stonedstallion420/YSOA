@@ -1,0 +1,244 @@
+<!-- The layout of this website was inspired by https://www.walnuthillarts.org/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Used bootstrap video as a guide -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intiial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Yale School of Art</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <!-- Used bootstrap video as a guide -->
+      <nav class="top-buttons-container navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="navbar-item">
+                <a class="nav-link">
+                  <!-- This icon was taken from https://icons8.com/icons/set/calendar -->
+                  <img src="./assets/calendar.png" alt="Click to see calendars" style="width: 1.5rem; height: 1.5rem">
+                  CALENDARS
+                </a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link">
+                  <!-- This icon was taken from https://icons8.com/icons/set/lock -->
+                  <img src="./assets/portals.png" alt="Click to log in" style="width: 1.7rem; height: 1.7rem">
+                  PORTALS
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="logo-container">
+        <!-- This image was taken from https://upload.wikimedia.org/wikipedia/en/c/c7/Yale_School_of_Art.png -->
+        <img class="logo" src="./assets/logo.png" alt="Yale School of Art logo">
+        <h1 class="logo-title">Yale School of Art</h1>
+      </div>
+    </div>
+
+    <!-- Modified code from Bootstrap -->
+    <nav class="main-navbar navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ADMISSIONS
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EXHIBITIONS
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PUBLICATIONS
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NEWS
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PUBLIC EVENTS
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="happening-at-soa">
+      <h2 class="section-title">Happening at SOA</h2>
+      <div class="two-column-container">
+        <!-- The image and excerpt were taken from https://www.risd.edu/ -->
+        <div class="body-column feature-column">
+          <img class="feature-image" src="./assets/feature.jpg" alt="collapsing building">
+          <h3>Symposium Explores Collapse</h3>
+          <p>
+            A three-day gathering organized by SOA's Center for Complexity brings to light insights, mindsets and
+            practices for productive problem solving in the wake of disaster.
+          </p>
+        </div>
+        <!-- All of the events were taken from https://www.art.yale.edu/ -->
+        <div class="body-column events-column">
+          <h3>Upcoming Events</h3>
+          <div class="events">
+            <div class="event">
+              <div class="event-date">
+                <span class="event-date-month">Oct</span>
+                <span class="event-date-day">20</span>
+                <span class="event-date-year">2022</span>
+              </div>
+              <div class="event-content">
+                <h4 class="event-title">
+                  "Race, Slavery, & the Founders of Yale Law School | An exhibit tour with Fred Shapiro"
+                </h4>
+                <div class="event-time">12:00 PM - 1:00 PM</div>
+                <div class="event-location">Lilian Goldman Law Library</div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-date">
+                <span class="event-date-month">Oct</span>
+                <span class="event-date-day">21</span>
+                <span class="event-date-year">2022</span>
+              </div>
+              <div class="event-content">
+                <h4 class="event-title">
+                  Visiting Artist in Graphic Design: John Morgan
+                </h4>
+                <div class="event-time">12:00 PM - 1:30 PM</div>
+                <div class="event-location">1156 Chapel Street</div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-date">
+                <span class="event-date-month">Oct</span>
+                <span class="event-date-day">21</span>
+                <span class="event-date-year">2022</span>
+              </div>
+              <div class="event-content">
+                <h4 class="event-title">
+                  Visiting Artist in Painting/Printmaking: Kevin Beasley
+                </h4>
+                <div class="event-time">12:30 PM - 1:45 PM</div>
+                <div class="event-location">353 Crown Street</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modified code from Bootstrap -->
+          <button class="primary-button btn btn-primary">Click for more events</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="section-title">Community Bulletin Board</h2>
+      <div class="bulletin-board-container">
+        <div class="centered-box-outer-container">
+          <div class="bulletin-board-arrows bulletin-board-left">
+            <!-- This icon was taken from https://remixicon.com/ -->
+            <img src="assets/arrow-left-s-line.svg" alt="Click to see previous post" />
+          </div>
+          <div class="centered-box-inner-container">
+            <h3 class="bulletin-title">
+              Mapping Public Art in New Haven
+            </h3>
+            <p class="bulletin-content">
+              Hey everyone! I've been mapping public art in New Haven as part of my nonprofit project ArtAround and I'd
+              love to invite you to join me, or just check it out and see what you think. <br> <br> <br> &lt3 Lindsey
+            </p>
+          </div>
+          <div class="bulletin-board-arrows bulletin-board-right">
+            <!-- This icon was taken from https://remixicon.com/ -->
+            <img src="assets/arrow-right-s-line.svg" alt="Click to see next post" />
+          </div>
+        </div>
+        <div class="bulletin-dots">
+          <div class="bulletin-dot"></div>
+          <div class="bulletin-dot"></div>
+          <div class="bulletin-dot bulletin-dot-active"></div>
+        </div>
+        <div class="bulletin-button-container">
+          <div class="bulletin-button-inside-container">
+            <!-- Modified code from Bootstrap -->
+            <button class="primary-button btn btn-primary">Click to make a post</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="section-title">Follow Us</h2>
+      <div class="centered-box-outer-container">
+        <div class="centered-box-inner-container">
+          <h3 class="follow-us-header">Stay Connected</h3>
+          <p class="follow-us-text">Get news from the Yale School of Art in your inbox. Sign up for our newsletter!</p>
+          <!-- Modified code from Bootstrap -->
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email">
+            <div class="input-group-append">
+              <button class="btn btn-outline-primary" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="follow-social-medias">
+        <div class="follow-social-media">
+          <!-- This icon was taken from https://remixicon.com/ -->
+          <img src="assets/facebook-box-fill.svg" alt="Click to follow us on Facebook" />
+        </div>
+        <div class="follow-social-media">
+          <!-- This icon was taken from https://remixicon.com/ -->
+          <img src="assets/instagram-line.svg" alt="Click to follow us on Instagram" />
+        </div>
+        <div class="follow-social-media">
+          <!-- This icon was taken from https://remixicon.com/ -->
+          <img src="assets/youtube-fill.svg" alt="Click to follow us on YouTube" />
+        </div>
+      </div>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-logo-container">
+        <!-- This image was taken from https://upload.wikimedia.org/wikipedia/en/c/c7/Yale_School_of_Art.png -->
+        <img class="footer-logo" src="./assets/logo.png" alt="Yale School of Art logo">
+        <div class="footer-logo-name">Yale School of Art</div>
+        <div class="footer-address">1156 Chapel Street, New Haven, CT 06520-8339</div>
+      </div>
+      <div class="footer-links">
+        <a class="footer-link" href="#">Contact</a>
+        <a class="footer-link" href="#">Site Map</a>
+        <a class="footer-link" href="#">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
